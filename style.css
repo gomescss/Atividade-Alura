@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-primario: #167BF7;
+    --cor-de-fundo: #00030C;
+    --font-principal: 'Inter', sans-serif;
+    --cor-aleatoria: #F9F9F9;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.apresentacao {
+    background-image: url("images/Background.png");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.apresentacao__conteudo {
+    margin: 0 6em;
+}
+
+.apresentacao__texto {
+    font-family: 'Inter', sans-serif;
+    font-size:  32px;
+    font-weight: 700;
+}
+
+.apresentacao__imagem {
+    margin: 2em 0 2em 0;
+}
+
+.apresentacao__paragrafo {
+    color: var(--cinza-secundario);
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    width: 380px;
+    padding: 0 15em;
+}
+
+.azul {
+    background-color: var(--botao-primario);
+    border-color: var(--botao-primario);
+    border-radius: 8px;
+    width: 512px;
+    height: 52px;
+    font-family: var(--font-principal);
+    color: var(--branco-principal);
+    font-size: 16px;
+    padding: 1em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.secundo__botao {
+    background-color: transparent;
+    border-color: var(--branco-principal);
+    border-radius: 8px;
+    width: 512px;
+    height: 52px;
+    font-family: var(--font-principal);
+    color: var(--branco-principal);
+    font-size: 16px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.secundario {
+    align-items: center;
+    padding-left: 170px;
+}
+
+.secundario__dois {
+    align-items: center;
+    padding-left: 65px;
+}
+
+.secundario__imagem {
+    width: 658px;
+    height: 739.92px;
+}
+
+.container__descricao {
+    width: 558px;
+    height: 114px;
+    align-items: center;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.descricao__texto {
+    font-size: 16px;
+    color: var(--cor-aleatoria);
+}
+
+.terceiro {
+    padding-left: 190px;
+    align-items: center;
+}
+
+.terceiro__paragrafo {
+    width: 558px;
+    height: 72px;
+    color: var(--cor-aleatoria);
+    font-size: 20px;
+}
+
+.botao__terceiro {
+    margin-top: 1rem;
+    background-color: var(--botao-primario);
+    border-color: var(--botao-primario);
+    border-radius: 8px;
+    width: 200px;
+    height: 56px;
+    font-family: var(--font-principal);
+    color: var(--branco-principal);
+    font-size: 16px;
+    padding: 1em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.terceiro__imagem {
+    width: 636.53px;
+    height: 435px;
+    padding-left: 30px;
+}
+
+.quarto {
+    padding-left: 190px;
+    align-items: center;
+}
+
+.quarto__imagem {
+    width: 701px;
+    height: 415px;
+}
+
+.quarto__texto {
+    width: 588px;
+    height: 114px;
+    padding-left: 44;
+}
+
+.quarto__titulo {
+    color: var(--branco-principal);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.quarto__paragrafo {
+    color: var(--cor-aleatoria);
+    font-size: 16px;
+}
+
+.quinto {
+    display: flex;
+    justify-content: center;
+}
+
+.quinto__titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.quinto__plataformas {
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos__plataformas {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 1200;
+}
+
+.quinto__tv {
+    width: 401px;
+    height: 227px;
+}
+.quinto__pc {
+    width: 401px;
+    height: 227px;
+}
+.quinto__cell {
+    width: 401px;
+    height: 227px;
+}
+
+.tv {
+    padding-left: 134px;
+    padding-right: 50px;
+}
+.pc {
+    padding-left: 215px;
+}
+.cell {
+    padding-left: 165px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+.aluraplus {
+    justify-self: center;
+   padding-left: 45%;
+}
+ 
+.footer__conteudo {
+    flex-direction: column;
+    padding-bottom: 207.01px;
+}
+
+.palavrasconjunto {
+    padding-left: 5%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.paragrafo__footer {
+    display: flex;
+    color: var(--cinza-secundario);
+    justify-content: center;
+    padding-top: 24px;
+    text-align: center;
+}
